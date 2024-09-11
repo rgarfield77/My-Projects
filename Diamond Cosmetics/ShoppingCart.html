@@ -1,0 +1,266 @@
+<?php include 'cart.php'; ?>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Shopping Cart|Diamond Cosmetics</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="css/demo.css" rel="stylesheet" />
+  <script src="js/script.js" async></script>
+  <!--<script type="text/javascript" src="js/bootstrap.js"></script>-->
+</head>
+
+<body>
+  <div class="hero_area sub_pages">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" width="500px"  length="500px"   alt="" />
+            
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="ShoppingCart.html"> <img src="images/cart.png"  width="25px" height="24px" alt=""> </a>
+                </li>  
+                <li class="nav-item">
+                  <a class="nav-link" href="LoginPage.html"><img src="images/Login.png"  width="25px" height="24px" alt=""></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+  </div>
+  <!--cart section-->
+<main>
+  <div class="cart-modal-overlay">
+    <div class="cart-modal">
+      <i id="close-btn" class="fas fa-times" width="25px" height="25px"></i>
+        <h1 class="cart-is-empty">Cart is empty</h1>
+      
+        <div class="product-rows">
+        </div>
+        <div class="total">
+          <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price">$0</span>
+              <button class="purchase-btn">PURCHASE</button>
+        </div>
+      </div>
+</div>
+      
+<div class="cart-btn">
+  <i id="cart" class="fas fa-shopping-cart"></i>
+    <span class ="cart-quantity">0</span>
+</div>
+  
+  <!-- end cart section -->
+
+  <!--  products  -->
+  <div class="items-container">
+    <div class="card-1 card">
+      <img class="product-image" src="./images/hair_products.png" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-name"> Shampoo and Condtioner set</span>
+          <span class="product-price">$2395</span>
+    </div>
+    <div class="card-2 card">
+      <img class="product-image" src="./images/Hair 1.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name">Creme of Nature Argan Oil Nourishing Intensive Treatment Conditioner 12 oz </span>
+        <span class="product-price">$775</span>
+    </div>
+    <div class="card-3 card">
+      <img class="product-image" src="./images/Hair 3.png" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-name"> Remington 1 Anti Static Flat Iron with Floating Ceramic Plates and Digital Controls Hair Straightener</span>
+          <span class="product-price">$1150</span>
+    </div>
+    <div class="card-4 card">
+      <img class="product-image" src="./images/Hair 4.png" alt="">
+         <button class="add-to-cart">Add to cart</button>
+         <span class="product-name"> Remington Pro Wet2Style Ceramic Ionic Hair Dryers Purple with 4 Unique Attachments</span>
+        <span class="product-price">$1575</span>
+    </div>
+    <div class="card-5 card">
+      <img class="product-image" src="./images/Hair 5.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> SheaMoisture Jamaican Black Castor Oil Strengthen and Restore Smoothing Conditioner 13 fl oz</span>
+      <span class="product-price">$1230</span>
+    </div>
+    <div class="card-6 card">
+      <img class="product-image" src="./images/Hair 6.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> SheaMoisture Shampoo for Damaged Hair 100 Pure Jamaican Black Castor Oil 13 oz</span>
+      <span class="product-price">$1130</span>
+    </div>
+    
+    <div class="card-7 card">
+      <img class="product-image" src="./images/slide_image3.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> Harifinity Hair Bundle (New)</span>
+      <span class="product-price">$3230</span>
+    </div>
+    
+    <div class="card-8 card">
+      <img class="product-image" src="./images/body 1.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> CeraVe Foaming Face Wash, Face Cleanser for Normal to Oily Skin, 12 fl oz.</span>
+        <span class="product-price">$1175</span>
+    </div>
+    <div class="card-9 card">
+      <img class="product-image" src="./images/body 2.png" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-name"> Clean Clear Day and Night Acne Face Wash Oil Free 8 fl oz Pack</span>
+          <span class="product-price">$1150</span>
+    </div>
+    <div class="card-10 card">
+      <img class="product-image" src="./images/body 3.png" alt="">
+         <button class="add-to-cart">Add to cart</button>
+         <span class="product-name"> Clean Clear Oil Free Deep Action Exfoliating Acne Face Wash Facial Cleanser 7oz </span>
+        <span class="product-price">$1575</span>
+    </div>
+    <div class="card-4 card">
+      <img class="product-image" src="./images/body 4.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name">Neutrogena Makeup Remover Wipes and Face Cleansing Towelettes(25) </span>
+      <span class="product-price">$690</span>
+    </div>
+    
+    <div class="card-5 card">
+      <img class="product-image" src="./images/body 5.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> The Ordinary Hyaluronic Acid 2 B5 </span>
+      <span class="product-price">$330</span>
+    </div>
+    <div class="card-6 card">
+      <img class="product-image" src="./images/body_products.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> Sea Of Spa Body Scrub</span>
+        <span class="product-price">$550</span>
+    </div>
+    <div class="card-1 card">
+      <img class="product-image" src="./images/body 7.png" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-name"> elf Acne Fighting Putty Primer</span>
+          <span class="product-price">$1150</span>
+    </div>
+    <div class="card-2 card">
+      <img class="product-image" src="./images/body 8.png" alt="">
+         <button class="add-to-cart">Add to cart</button>
+         <span class="product-name"> elf Cosmetics Poreless Putty Primer</span>
+        <span class="product-price">$1575</span>
+    </div>
+    <div class="card-3 card">
+      <img class="product-image" src="./images/body 10.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> Maybelline Fit Me Matte Poreless Liquid Foundation Makeup 120 Classic Ivory 1 fl oz</span>
+      <span class="product-price">$1230</span>
+    </div>
+      <div class="card-4 card">
+      <img class="product-image" src="./images/body 11.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> Maybelline Fit Me Matte Poreless Liquid Foundation Makeup 228 Soft Tan 1 fl oz</span>
+      <span class="product-price">$1630</span>
+    </div>
+    <div class="card-5 card">
+      <img class="product-image" src="./images/body 12.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> Maybelline Instant Age Rewind Instant Eraser Multi Use Concealer 100 0 2 fl oz </span>
+      <span class="product-price">$1630</span>
+    </div>
+    <div class="card-6 card">
+      <img class="product-image" src="./images/body 12.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> Maybelline Instant Age Rewind Instant Eraser Multi Use Concealer 100 0 2 fl oz </span>
+      <span class="product-price">$1630</span>
+    </div>
+    
+
+    
+    <div class="card-1 card">
+      <img class="product-image" src="./images/nail_products.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> Nail Polish Set</span>
+      <span class="product-price">$890</span>
+    </div>
+    <div class="card-2 card">
+      <img class="product-image" src="./images/slide_image2.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> Manicure/Pedicure Kit</span>
+      <span class="product-price">$230</span>
+    </div>
+    <div class="card-3 card">
+      <img class="product-image" src="./images/nail 1.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> Laser Mandicure Lamp</span>
+      <span class="product-price">$3230</span>
+    </div>
+    <div class="card-4 card">
+      <img class="product-image" src="./images/nail 2.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> Artificial Nails Set</span>
+      <span class="product-price">$1230</span>
+    </div>
+    <div class="card-5 card">
+      <img class="product-image" src="./images/nail 3.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-name"> Electric Pedicure Exfoliation Callus Remover, </span>
+      <span class="product-price">$2230</span>
+    </div>
+
+
+  </div>  
+</main>
+
+
+  
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      Copyright &copy; 2023 All Rights Reserved By
+      <a href="index.html">Diamond Cosmetics</a>
+    </p>
+  </section>
+
+</body>
+
+</html>
