@@ -1,0 +1,104 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the container */
+.container {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+    max-width: 1200px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center align the container */
+}
+
+/* Styling for the student list */
+.student-list {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+}
+
+.student-list h2 {
+    margin-bottom: 10px;
+}
+
+.student-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-list th, .student-list td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.student-list th {
+    background-color: #f2f2f2;
+}
+
+.student-list img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.student-list .actions {
+    margin-top: 10px;
+}
+
+.student-list .actions a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.student-list .edit-btn {
+    background-color: royalblue; /* Blue color */
+    color: white; /* Text color */
+    padding: 8px 12px; /* Padding around text */
+    border: none; /* Remove border */
+    border-radius: 3px; 
+}
+
+.student-list .delete-btn {
+    background-color: #dc3545; /* Red color */
+    color: white; /* Text color */
+    padding: 8px 12px; /* Padding around text */
+    border: none; /* Remove border */
+    border-radius: 3px; 
+}
+
+/* Styling for the add student form */
+.add-student-form {
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+}
+
+.add-student-form h2 {
+    margin-bottom: 10px;
+}
+
+.add-student-form form {
+    width: 100%;
+    max-width: 400px; /* Adjust max-width as needed */
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Blue color */
+    color: white; /* Text color */
+    padding: 8px 12px; /* Padding around text */
+    border: none; /* Remove border */
+    border-radius: 3px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 14px; /* Font size */
+}
+

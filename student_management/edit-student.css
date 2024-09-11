@@ -1,0 +1,74 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center align the form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Adjust based on your layout needs */
+    background-color: #f0f0f0; /* Optional: Background color for the whole page */
+}
+
+/* Styling for the edit student form */
+.edit-form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.edit-form-container h2 {
+    text-align: center;
+    margin-bottom: 10px; /* Adjust spacing as needed */
+    font-size: 20px; /* Increase font size for header */
+    color: #333; /* Adjust text color */
+}
+
+.edit-form-container form {
+    width: 100%;
+}
+
+.edit-form-container .form-group {
+    margin-bottom: 15px; /* Adjust spacing between form groups */
+}
+
+.edit-form-container label {
+    display: block;
+    font-weight: bold;
+}
+
+.edit-form-container input[type="text"],
+.edit-form-container input[type="file"]{
+    width: calc(100% - 22px); /* Adjust for padding and borders */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    
+    
+}
+
+.edit-form-container input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.edit-form-container input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
